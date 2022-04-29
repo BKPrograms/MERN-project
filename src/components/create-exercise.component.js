@@ -53,7 +53,7 @@ export default class CreateExercise extends Component {
 
     onChangeDate(date) {
         this.setState({
-            username: date,
+            date: date,
         })
     }
 

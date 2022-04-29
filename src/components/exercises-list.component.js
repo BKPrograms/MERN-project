@@ -2,6 +2,7 @@ import React, {Component} from "react";
 import {Link} from "react-router-dom";
 import axios from "axios";
 
+
 const Exercise = props => (
     <tr>
         <td>{props.exercise.username}</td>
@@ -29,7 +30,7 @@ export default class ExercisesList extends Component {
                 this.setState({
                     exercises: resp.data
                 });
-                console.log(this.state.exercises);
+//                console.log(this.state.exercises);
             }
         ).catch(err => console.log(err));
 
