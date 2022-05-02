@@ -43,7 +43,6 @@ export default class ExerciseStats extends Component {
     renderBarGraph() {
 
         const labels = [...this.state.names];
-
         const cData = {
             labels,
 
