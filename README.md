@@ -1,7 +1,8 @@
 # MERN-project
 
 A web application that is an exercise logger that lets you record
-your workout sessions. The frontend was created with React and the backend uses Express to connect
+your workout sessions and keep track of certain statistics using Chart.js visualisations.
+The frontend was created with React and the backend uses Express to connect
 to a MongoDB database.
 
 ## Starting the project
